@@ -1,0 +1,24 @@
+# Ignore unneeded notebooks
+00-tf-*
+01-tf-*
+02-tf-*
+03-CNN-*
+04-transfer-learning.ipynb
+05-fine_tuning_*
+
+# Ignore logs and checkpoints
+food_vis_training_logs/
+FoodVis_checkpoints/
+ten_per_model_checkpoints/
+models_EfficientNetV2B0_feature_extract/
+__MACOSX/
+
+# General ignores
+data/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+.env
+*.h5
+*.keras
